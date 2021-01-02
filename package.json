@@ -1,0 +1,39 @@
+{
+  "name": "momentos-myd-erazo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./assets/sass/estilos.scss ./assets/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "nodemon": "^2.0.6",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "ansi-align": "^3.0.0",
+    "clone-response": "^1.0.2",
+    "decompress-response": "^3.3.0",
+    "mimic-response": "^1.0.1",
+    "make-dir": "^3.1.0",
+    "minimist": "^1.2.5",
+    "ms": "^2.1.2",
+    "normalize-url": "^4.5.0",
+    "normalize-path": "^3.0.0",
+    "p-cancelable": "^1.1.0",
+    "prepend-http": "^2.0.0",
+    "picomatch": "^2.2.2",
+    "semver-diff": "^3.1.1",
+    "signal-exit": "^3.0.3",
+    "strip-json-comments": "^2.0.1",
+    "pupa": "^2.1.1",
+    "readdirp": "^3.5.0",
+    "responselike": "^1.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "author": "Mercelena Erazo",
+  "license": "ISC",
+  "description": ""
+}
